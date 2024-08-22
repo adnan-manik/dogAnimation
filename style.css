@@ -1,5 +1,5 @@
 body{
-    background-color: hsl(145, 71%, 47%);
+    background-color: hsl(145, 73%, 50%);
     margin: 0;
 }
 #canvas{
@@ -19,8 +19,8 @@ body{
     display: block;
     justify-content: center;
     margin: auto;
-    border-bottom: 12px solid green;
-    background-color: rgb(64, 97, 110);
+    border-bottom: 12px solid rgb(40, 134, 40);
+    background-color: rgb(216, 244, 255);
 }
 
 .controls{ 
