@@ -1,3 +1,7 @@
+body{
+    background-color: hsl(145, 71%, 47%);
+    margin: 0;
+}
 #canvas{
     width: 600px;
     height: 600px;
@@ -11,14 +15,15 @@
 
 }
 .container{
+    height: 80vh;
     display: block;
     justify-content: center;
     margin: auto;
-    margin-top: 10vh;
-    border-bottom: 12px solid;
+    border-bottom: 12px solid green;
+    background-color: rgb(64, 97, 110);
 }
 
-.controls{
+.controls{ 
     display: flex;
     margin: auto;
     padding: 24px;
