@@ -15,6 +15,7 @@ body{
 
 }
 .container{
+    min-height: fit-content;
     height: 80vh;
     display: block;
     justify-content: center;
