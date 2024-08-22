@@ -1,15 +1,21 @@
 #canvas{
     width: 600px;
     height: 600px;
+    
+}
+
+.canvasContainer{
+    width: fit-content;
+    margin: auto;
+    justify-content: center;
 
 }
 .container{
     display: block;
     justify-content: center;
-    width: fit-content;
     margin: auto;
-    border: 2px solid;
-
+    margin-top: 10vh;
+    border-bottom: 12px solid;
 }
 
 .controls{
@@ -20,6 +26,16 @@
 }
 
 select, option, label{
-    font-size: 24px;
+    font-size: 32px;
     font-family: sans-serif;
+}
+
+option{
+    padding: 12px;
+    width: 15%;
+    text-align: center;
+}
+
+select{
+   width: 10%;
 }
